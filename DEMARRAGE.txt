@@ -1,0 +1,132 @@
+================================================================================
+  SCRIPT PYTHON ECHO PRÉNOM - GUIDE DE DÉMARRAGE RAPIDE
+================================================================================
+
+DATE : 16 février 2026
+STATUS : ✅ PRÊT POUR UTILISATION
+
+================================================================================
+  DÉMARRAGE EN 1 MINUTE
+================================================================================
+
+1. Ouvrez un terminal/console
+2. Naviguez jusqu'au dossier du projet
+3. Exécutez :
+
+   python script.py Jean
+
+4. Résultat attendu : "Bonjour Jean!"
+
+================================================================================
+  FICHIERS DISPONIBLES
+================================================================================
+
+📄 Documentation
+  ├─ README.md             : Guide complet d'utilisation
+  ├─ INDEX.md              : Guide de navigation
+  └─ Brief.md              : Cahier des charges
+
+💻 Code
+  └─ script.py             : Script Python exécutable
+
+📋 Spécifications & Plan
+  ├─ Specs.md              : 7 User Stories avec critères
+  └─ Plan.md               : Plan d'implémentation détaillé
+
+✅ Tests & Rapports
+  ├─ TESTS_REPORT.md       : Résultats de tous les tests
+  └─ SYNTHESE_PROJET.md    : Synthèse et métriques
+
+================================================================================
+  UTILISATION BASIQUE
+================================================================================
+
+Commande simple :
+  python script.py Jean
+  → Résultat : Bonjour Jean!
+
+Avec accents :
+  python script.py José
+  → Résultat : Bonjour José!
+
+Prénom composé :
+  python script.py Jean-Pierre
+  → Résultat : Bonjour Jean-Pierre!
+
+Afficher l'aide :
+  python script.py -h
+  ou
+  python script.py --help
+
+================================================================================
+  EN CAS D'ERREUR
+================================================================================
+
+Erreur : "python: command not found"
+  → Assurez-vous que Python 3.7+ est installé
+  → Utilisez : python3 script.py [prénom]
+
+Erreur : "Erreur : Le prénom ne peut pas être vide"
+  → Vous avez fourni un argument vide ou avec seulement des espaces
+  → Utilisez : python script.py "votre_prenom"
+
+Erreur : "the following arguments are required: <prénom>"
+  → Vous avez oublié de fournir un prénom
+  → Utilisez : python script.py Jean
+
+================================================================================
+  FICHIERS À LIRE SELON VOS BESOINS
+================================================================================
+
+Je veux UTILISER le script
+  → Lisez : README.md
+
+Je veux COMPRENDRE comment ça marche
+  → Lisez : INDEX.md puis Plan.md
+
+Je veux VÉRIFIER la qualité
+  → Lisez : TESTS_REPORT.md
+
+Je veux MODIFIER le code
+  → Lisez : Specs.md et Plan.md, puis modifiez script.py
+
+================================================================================
+  STRUCTURE DU PROJET
+================================================================================
+
+Training lab/
+├── script.py              ← Script à exécuter
+├── README.md              ← Guide d'utilisation
+├── INDEX.md               ← Guide de navigation
+├── Brief.md               ← Cahier des charges
+├── Specs.md               ← Spécifications
+├── Plan.md                ← Plan d'implémentation
+├── TESTS_REPORT.md        ← Rapport de tests
+├── SYNTHESE_PROJET.md     ← Synthèse finale
+└── DEMARRAGE.txt          ← Ce fichier
+
+================================================================================
+  RÉSUMÉ DU PROJET
+================================================================================
+
+✅ 7 User Stories implémentées
+✅ 10 tests manuels passés (100%)
+✅ 41 critères d'acceptation validés (97.6%)
+✅ Code conforme PEP 8
+✅ Documentation complète
+✅ Aucune dépendance externe
+✅ Prêt pour production
+
+================================================================================
+  SUPPORT
+================================================================================
+
+Pour toute question, consultez :
+1. README.md (FAQ et dépannage)
+2. INDEX.md (guide de navigation)
+3. Specs.md (spécifications)
+
+================================================================================
+  CRÉÉ : 16 février 2026
+  STATUS : ✅ LIVRABLE - PRÊT POUR PRODUCTION
+================================================================================
